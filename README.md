@@ -7,7 +7,7 @@ This project is an IoT-based smart switchboard that enables users to control hom
 ## 📁 Project Structure
 ```
 /IoT-Switchboard
-│── Block diagram.png
+│── Blockdiagram.png
 │── hardware.png
 │── IOT BASED SWITCHBOARD.pdf
 │── README.md
@@ -18,7 +18,8 @@ This project is an IoT-based smart switchboard that enables users to control hom
 ---
 
 ## 📊 Block Diagram  
-Block diagram.png
+![Block Diagram](Block_diagram.png)
+
 ---
 
 ## 🔌 Hardware Diagram  
