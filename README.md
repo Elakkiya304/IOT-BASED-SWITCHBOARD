@@ -1,39 +1,55 @@
-# 🌐💡🏠 IoT-Based Switchboard
+{"id":"56155","variant":"standard","title":"README with Image and Report Links"}
+# 🌐💡 IoT Based Switchboard
 
 ## 📄 Project Overview
-The IoT-Based Switchboard is a smart home automation system designed to give users control over their electrical appliances both remotely and manually. Using NodeMCU (ESP8266) as the main controller, the system allows you to turn devices ON/OFF via a web application or physical switches, making it perfect for modern smart homes.
+This project is an IoT-based smart switchboard system using the ESP8266 module. It allows users to control electrical appliances through a web application as well as manually. The system provides real-time switching, remote control ability, and supports home automation.
 
-## ⚙️ Features
-- Remote control of multiple appliances through a web interface
-- Manual control using physical push-button switches
-- Real-time appliance status monitoring
-- Lightweight and energy-efficient using NodeMCU
-- Easy installation and setup for smart home and industrial automation
+---
 
-## 🛠️ Hardware Components
-- NodeMCU ESP8266
-- 5V/12V Relay Modules
-- Push Button Switches
-- Power Supply
-- Connecting wires and PCB
+## 🏗️ Block Diagram  
+![Block Diagram](image.png)
 
-## 💻 Software Components
-- Arduino IDE (programming NodeMCU)
-- Web interface (HTML, CSS, JavaScript)
-- Optional IoT platform like Blynk for remote control
+---
 
-## 🚀 How to Use
-1. Connect relay modules to NodeMCU and appliances.
-2. Upload the provided Arduino code to NodeMCU.
-3. Access the web application to control appliances remotely.
-4. Use physical switches for manual control if required.
+## 📘 Project Report  
+📄 **Full Report PDF:**  
+[IOT BASED SWITCHBOARD.pdf](IOT%20BASED%20SWITCHBOARD.pdf)
 
-## 🌟 Future Enhancements
-- Voice control integration (Alexa, Google Home)
-- Energy consumption monitoring
-- Scheduling and automation rules for appliances
+---
 
-## 📜 License
-This project is licensed under the MIT License.  
+## ⚙️ ESP8266 Code  
+🔌 **Firmware Code:**  
+[code.ESP8266](code.ESP8266)
 
-**Suggested Commit Message:** `Initial commit: Complete IoT switchboard code with web and manual control`
+---
+
+## 💻 Web Application Files  
+🌐 **Web App Code Folder:**  
+[code for web application](code%20for%20web%20application)
+
+---
+
+## 📝 Features
+- Remote ON/OFF control  
+- Manual switch support  
+- Web dashboard interface  
+- Real-time appliance control  
+- Low power consumption  
+
+---
+
+## 📦 Folder Contents
+- `image.png` → Block diagram  
+- `IOT BASED SWITCHBOARD.pdf` → Full project report  
+- `code.ESP8266` → NodeMCU firmware  
+- `code for web application` → Front-end files (HTML/CSS/JS)  
+
+---
+
+## 🚀 Usage
+1. Upload the ESP8266 code into NodeMCU.  
+2. Place web application files in your hosting folder.  
+3. Connect relays and appliances.  
+4. Access the web UI to control the switchboard.  
+
+---
