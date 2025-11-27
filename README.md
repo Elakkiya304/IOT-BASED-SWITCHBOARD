@@ -4,19 +4,6 @@ This project is an IoT-based smart switchboard that enables users to control hom
 
 ---
 
-## 📁 Project Structure
-```
-/IoT-Switchboard
-│── Blockdiagram.png
-│── hardware.png
-│── IOT BASED SWITCHBOARD.pdf
-│── README.md
-│── code.ESP8266
-│── code for web application
-```
-
----
-
 ## 📊 Block Diagram  
 ![Block Diagram](Blockdiagram.png)
 
