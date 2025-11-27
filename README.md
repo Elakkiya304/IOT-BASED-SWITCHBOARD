@@ -18,7 +18,7 @@ This project is an IoT-based smart switchboard that enables users to control hom
 ---
 
 ## 📊 Block Diagram  
-![Block Diagram](Block diagram.png)
+![Block diagram](Block diagram.png)
 
 ---
 
