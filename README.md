@@ -1,4 +1,3 @@
-{"id":"56155","variant":"standard","title":"README with Image and Report Links"}
 # 🌐💡 IoT Based Switchboard
 
 ## 📄 Project Overview
