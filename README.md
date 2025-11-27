@@ -1,4 +1,3 @@
-{"id":"56129","variant":"standard","title":"IoT-Based Switchboard README with Emojis"}
 # 🌐💡🏠 IoT-Based Switchboard
 
 ## 📄 Project Overview
