@@ -1,54 +1,80 @@
-# 🌐💡 IoT Based Switchboard
+# IoT Based Switchboard
 
-## 📄 Project Overview
-This project is an IoT-based smart switchboard system using the ESP8266 module. It allows users to control electrical appliances through a web application as well as manually. The system provides real-time switching, remote control ability, and supports home automation.
-
----
-
-## 🏗️ Block Diagram  
-![Block Diagram](image.png)
+This project is an IoT-based smart switchboard that allows users to **control home appliances** through a **web application** as well as **manual switches**. It uses the **ESP8266 (NodeMCU)** microcontroller, relays, and a simple web interface to toggle appliances from anywhere via Wi-Fi.
 
 ---
 
-## 📘 Project Report  
-📄 **Full Report PDF:**  
-[IOT BASED SWITCHBOARD.pdf](IOT%20BASED%20SWITCHBOARD.pdf)
+## 🔧 Features
+- Remote control of appliances through a **web dashboard**  
+- Manual ON/OFF control using physical switches  
+- Real-time status update of each load  
+- Wi-Fi-based communication using **ESP8266**  
+- Low-cost and easy to integrate with any switchboard  
+- Supports multiple loads (bulb, fan, plug point, etc.)
 
 ---
 
-## ⚙️ ESP8266 Code  
-🔌 **Firmware Code:**  
-[code.ESP8266](code.ESP8266)
+## 📁 Project Structure
+```
+/IoT-Switchboard
+│── Block diagram.png
+│── hardware.png
+│── IOT BASED SWITCHBOARD.pdf
+│── code.ESP8266
+│── code for web application
+│── README.md
+```
 
 ---
 
-## 💻 Web Application Files  
-🌐 **Web App Code Folder:**  
-[code for web application](code%20for%20web%20application)
+## 🛠️ Hardware Requirements
+- NodeMCU ESP8266  
+- 4-channel relay module  
+- Manual switches  
+- Power supply (5V)  
+- Connecting wires  
+- Appliances/load  
 
 ---
 
-## 📝 Features
-- Remote ON/OFF control  
-- Manual switch support  
-- Web dashboard interface  
-- Real-time appliance control  
-- Low power consumption  
+## 💻 Software Requirements
+- Arduino IDE  
+- ESP8266 Board Manager  
+- Web browser  
+- HTML/CSS/JS for web interface  
 
 ---
 
-## 📦 Folder Contents
-- `image.png` → Block diagram  
-- `IOT BASED SWITCHBOARD.pdf` → Full project report  
-- `code.ESP8266` → NodeMCU firmware  
-- `code for web application` → Front-end files (HTML/CSS/JS)  
+## 🚀 Working Principle
+1. **ESP8266** connects to a Wi-Fi network.  
+2. The **web application** communicates with ESP8266 through HTTP requests.  
+3. ESP8266 triggers the **relay module**, turning appliances ON/OFF.  
+4. Manual switches can also control loads without affecting IoT functionality.
 
 ---
 
-## 🚀 Usage
-1. Upload the ESP8266 code into NodeMCU.  
-2. Place web application files in your hosting folder.  
-3. Connect relays and appliances.  
-4. Access the web UI to control the switchboard.  
+## 📜 Code Included
+- `code.ESP8266` → Microcontroller program  
+- `code for web application` → Dashboard UI & backend communication  
 
 ---
+
+## 📄 Documentation
+Detailed explanation is available in:  
+**IOT BASED SWITCHBOARD.pdf**
+
+---
+
+## 🖼️ Images
+- Block diagram  
+- Hardware connection layout  
+
+---
+
+## 👨‍💻 Developed By
+Elakkiya  
+Electronics and Communication Engineering  
+
+---
+
+If you want, I can also create a **50-character commit message**, **project description**, or **GitHub tags**.
